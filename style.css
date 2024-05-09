@@ -1,0 +1,182 @@
+@font-face {
+    font-family: try1;
+    src: url(/LasAmericas.otf);
+  }
+
+  @font-face {
+    font-family: try2;
+    src: url(/Right\ Strongline.ttf);
+  }
+
+body{
+    margin: 0;
+    background-color: white; 
+      
+    
+}
+
+.bodyContainer nav {
+    width: auto;   
+    height: 20%;
+    background-color:rgb(46, 94, 190);
+    color: black;
+    border-bottom: 6px ridge rgb(59, 112, 202);
+    border-top: 6px ridge rgb(59, 112, 202);
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 10px 20px;     
+    font-weight: bold;    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-family: try1;
+    
+}
+
+.about  {
+    padding: 5px 180px;
+    background-color: rgb(255, 255, 255);
+    margin: 0; 
+   
+    
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+img {
+    border-bottom: 6px ridge rgb(59, 112, 202);
+    width: 100%;
+    }
+
+.mySkills {        
+    background-color: rgb(46, 94, 190);
+    padding: 10%;
+    color: white;    
+    
+    text-align: center;
+    font-family: try2;
+   
+   
+
+}
+
+.portfolio  {  
+    text-align: center;
+    background-color: white;
+    padding: 10%;
+    font-family: try2;
+    color:  rgb(46, 94, 190);
+
+
+}
+
+
+.contactMe {
+        color:white;
+        padding: 1%;
+        
+        background-color: black;
+    font-family: try1;
+
+}
+
+.contact {
+    border: none;
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px;
+    color: white;
+   
+}
+
+.sign {
+    
+    background-color: black;
+   margin: 0;
+    font-family: try2;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding-bottom: 1px;
+}
+
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    
+    border: 1px solid;
+    width: 160px;
+    height: 55px;
+   display: inline;
+   padding: 40px;
+   margin: 20px;
+   border: 4px solid;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 2rem;
+}
+
+
+
+h1 {
+   text-align: center;
+   background-color: rgb(46, 94, 190);
+   margin: 0;
+   padding-top: 15px;
+   font-size: 2rem;
+   font-family: sans-serif;
+   color: white;
+   
+    
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 2rem;
+    padding-top: 15px;
+    border-top: 3px solid;
+    font-family: sans-serif;
+    color: rgb(46, 94, 190);
+    
+     
+ }
+
+ h3 {
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding-top: 15px;
+    font-size: 2rem;
+   
+    font-family: sans-serif;
+    
+    color: white;
+    
+    
+     
+ }
+
+ a:hover{
+    color:black;
+ }
+
+ 
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+p {
+    font-size: 2.5rem;
+    border: 5px solid;
+    padding: 20px;
+    text-align: center;
+    font-family: try1;
+    color:rgb(46, 94, 190);
+}
+
